@@ -1,0 +1,746 @@
+body{
+    background-image: url('/Assets/background12.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet Ms';
+    padding:0;
+    margin:0;
+}
+.header-plot{
+    width:75%;
+    margin:auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:1% 0;
+}
+a{
+    text-decoration: none;
+}
+.header-values{
+    display: flex;
+    list-style-type:none;
+    margin:auto 0 0 0;  
+}
+.header-values li:not(:last-child) a {
+  border-right: 1px solid #777373;
+}
+.header-values li a{
+    padding:0 1rem;
+    color:#777373;
+    font-size: 90%;
+}
+.header-values li a:hover{
+    text-decoration: underline;
+}
+.container{
+    border-top: 1px solid #777373;
+    border-bottom:1px solid #777373;
+    padding:2px 0;
+}
+.inner-container{
+    background:#d9d9d9;
+}
+nav{
+    width:75%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+}
+
+.navbar{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display: flex;
+}
+.navbar li a{
+    color:black;
+    padding:1rem;
+}
+.navbar li{
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    border-right:1px solid white;
+}
+.navbar li:first-child a{
+    padding-left:0.5rem;
+}
+.search-bar form input{
+    width:200px;
+    border:none;
+    box-shadow: 2px 2px 2px #807d7d inset;
+    padding-left:5px;
+    padding-top:5px;
+
+}
+.search-bar form {
+	width: fit-content;
+    margin: 0 1em 0 auto;
+	
+
+}
+button {
+	border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.second-header-container{
+    border-bottom:1px solid rgb(202, 200, 200);
+}
+.second-navbar{
+    width:75%;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+}
+.holiday{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+.holiday li{
+    padding-right:1em;
+    list-style-type: none;
+}
+.holiday li:not(:first-child):before {
+	content: 'o';
+	padding-right: 1em;
+	color: #535c7e;
+}
+.holiday li a {
+	font-size: 1em;
+	color: #4e5881;
+}
+
+.holiday li a:hover {
+	text-decoration: underline;
+}
+.bridal-registry{
+    display: flex;
+    align-items: center;
+    padding-right:6.5em;
+}
+.bridal-registry a {
+	color: #4b547c;
+	padding-left: 0.5em;
+	font-size: 1em;
+}
+.bridal-registry a:hover {
+	text-decoration: underline;
+}
+main {
+	width: 75%;
+	margin: auto;
+}
+
+.content-container {
+	background: #fff;
+	padding: 0.5em;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.recipe {
+	width: 175%;
+	margin-right: 0.5em;
+}
+
+.menu {
+	background: rgb(51, 50, 50);
+	padding: 4em 2em 2em 2em;
+}
+
+.menu h2 {
+	font-weight: normal;
+	font-size: 2em;
+	color:white;
+	margin: 0 0 0.5em 0.25em;
+}
+
+.menu p {
+	color: #969594;
+	margin: 0 0.5em;
+}
+
+.menu a {
+	color: #929191;
+	text-decoration: underline;
+	font-size: 1em;
+	margin-left: 0.5em;
+}
+
+.menu-options {
+	margin: 1.5em 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-options li {
+	padding: 0.5em 0.5em;
+}
+
+.menu-options li:not(:last-child) {
+	border-bottom: 1px solid #8c8b8a;
+}
+
+.menu-options li a {
+	text-decoration: none;
+	color: #cfcdcb;
+	font-size: 1em;
+	margin-left: 0;
+}
+.bottom-container {
+	background: #2e2f2c;
+	padding: 0.5em;
+}
+
+.bottom-part {
+	background: #fff;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.part {
+	position: relative;
+	height: 170px;
+}
+
+.part img {
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+.glass img {
+	left: 0;
+}
+
+.album img {
+	right: 0;
+}
+
+.bottom-content {
+	width: 100%;
+	height: 85%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 2px solid #eaeaea;
+}
+
+.bottom-content h3 {
+	font-weight: normal;
+	color: #6b6b6a;
+	margin: 0;
+	font-size: 110%;
+}
+
+.bottom-content p {
+	margin: 0;
+	margin-top: 1%;
+	font-size: 80%;
+	color: #a1a0a1;
+}
+
+.bottom-content a {
+	color: #7c87a3;
+	font-size: 90%;
+}
+
+
+.glass .bottom-content {
+	width: 90%;
+	top: 8%;
+	left: 6%;
+}
+
+.glass .bottom-content a {
+	float: right;
+	margin-top: 6%;
+	margin-right: 16%;
+}
+
+.plates .bottom-content {
+	width: 90%;
+	height: 85%;
+	top: 8%;
+	left: 4%;
+}
+
+.plates .bottom-content a {
+	float: right;
+	margin-right: 15%;
+	margin-top: 5%;
+}
+
+.album .bottom-content {
+	border: none;
+	left: 2%;
+	top: 8%;
+	width: 90%;
+}
+
+.album .bottom-content h3 {
+	width: 45%;
+}
+
+.album .bottom-content p {
+	float: left;
+	margin-top: 2%;
+	width: 55%;
+}
+
+.album .bottom-content a {
+	float: left;
+	margin-top: 5%;
+	margin-right: 10%;
+}
+
+footer {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5% 0;
+}
+
+footer a {
+	font-size: 0.75em;
+	color: #8e8d8f;
+	text-decoration: underline;
+}
+
+.footer-links {
+	margin: 0 0 2% 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+}
+
+.footer-links li {
+	padding: 0 2%;
+	border-left: 1px solid #8e8d8f;
+}
+
+.footer-links li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+
+footer p {
+	color: #8e8d8f;
+	font-size: 0.8em;
+	margin: 0 0 2% 0;
+}
+
+.mail-id {
+	font-size: 1em;
+}
+
+.login  form input {
+	font-size: 0.8em;
+	width: 60%;
+	border: none;
+	padding: 3px 0;
+	padding-left: 5px;
+	box-shadow: 2px 2px 2px #737373 inset;
+}
+
+.login form buttom  {
+	padding: 2px 5px;
+}
+
+
+@media only screen and (max-width: 450px) {
+	.header-values li a {
+		font-size: 0.7em;
+	}
+
+	.navbar li a {
+		font-size: 0.7em;
+	}
+
+	.bottom {
+		height: 950px;
+		padding: 5% 0;
+	}
+
+	.part{
+		display: block;
+	}
+
+	.part img {
+		width: 250px;
+		height: 100%;
+	}
+
+	.album .bottom-content {
+		width: 100%;
+	}
+
+	.part .bottom-content {
+		width: 100%;
+		text-align: center;
+	}
+
+	footer {
+		display: inline-block;
+		padding: 0 2%;
+        text-align: center;
+	}
+
+	
+
+	footer p {
+		font-size: 0.6em;
+	}
+
+	.footer-links {
+		justify-content: center;
+	}
+
+	.footer-links li a {
+		font-size: 0.6em;
+	}
+
+	.login form input {
+		font-size: 0.6em;
+	}
+
+	.login form button {
+		font-size: 0.6em;
+	}
+
+	.second-navbar {
+		display: inline-block;
+	}
+
+	.holiday {
+		border-bottom: 1px solid #d9d9d9;
+		padding: 1% 0;
+	}
+
+	.bridal-registry {
+		padding: 0;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 645px) {
+	.header-values li a {
+		font-size: 0.8em;
+	}
+
+	.header-values li {
+		text-align: center;
+	}
+
+	.navbar li {
+		text-align: center;
+	}
+
+	.navbar li a {
+		font-size: 0.8em;
+		padding: 0.5rem 0.2rem;
+	}
+
+	.part img {
+		width: 50%;
+	}
+
+	.part img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	header {
+		display: block;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.header-values {
+		justify-content: space-around;
+		padding: 0;
+	}
+
+	.header-values li:not(:last-child) a {
+		padding: 0;
+		border-right: none;
+	}
+
+	nav {
+		display: block;
+	}
+
+	.navbar {
+		justify-content: space-around;
+		border-bottom: 1px solid #fff;
+	}
+
+	.navbar li {
+		border: none;
+	}
+
+	.navbar li a {
+		text-decoration: underline;
+	}
+
+	.search-bar {
+		text-align: center;
+		padding: 1% 0;
+	}
+
+	.search-bar form {
+		margin: 0;
+	}
+
+	.search-bar {
+		display: flex;
+		justify-content: center;
+	}
+
+	.holiday li a {
+		font-size: 0.9em;
+	}
+
+	.bridal-registry a {
+		font-size: 0.75em;
+	}
+
+	.content {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.recipe {
+		width: 100%;
+	}
+
+	.bottom-part {
+		grid-template-columns: auto;
+	}
+
+	.part {
+		position: static;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.part img {
+		position: static;
+		margin: 0;
+	}
+
+	.bottom-content {
+		position: static;
+		border-right: none;
+		margin: 5% 0 0 auto;
+		width: 50%;
+	}
+
+	.album .bottom-content {
+		width: 70%;
+	}
+
+	.album .bottom-content h3 {
+		width: 100%;
+	}
+
+	.album .bottom-content p {
+		width: 100%;
+	}
+
+	.tile .bottom-content a {
+		float: right;
+		margin-top: 5%;
+		margin-right: 15%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.recipe {
+		width: 70%;
+	}
+
+	.menu h2 {
+		font-size: 1.3em;
+	}
+
+	.menu-options li a {
+		font-size: 0.9em;
+	}
+
+	.menu > a {
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.header-plot {
+		width: 95%;
+		margin: auto;
+	}
+
+	nav {
+		width: 95%;
+	}
+
+	.second-navbar {
+		width: 95%;
+	}
+
+	main {
+		width: 95%;
+	}
+
+	footer {
+		width: 95%;
+	}
+
+	.header-values li a {
+		padding: 0 0.6em;
+	}
+
+	.navbar li a {
+		padding: 0.5rem;
+		font-size: 0.85rem;
+	}
+
+	.search-bar form input {
+		font-size: 0.9rem;
+	}
+
+	.search-bar form button {
+		font-size: 0.9rem;
+	}
+
+	.holiday li {
+		font-size: 0.8em;
+	}
+
+	.bridal-registry a {
+		font-size: 0.9em;
+	}
+
+	.recipe {
+		width: 140%;
+	}
+
+	.menu h2 {
+		font-size: 1.75em;
+	}
+
+	.menu p {
+		font-size: 0.9em;
+		margin: 0 0.3em;
+	}
+
+	.menu-options {
+		margin: 1em 0;
+	}
+
+	.menu-options li a {
+		font-size: 1.05em;
+	}
+
+	.menu > a {
+		font-size: 0.9em;
+	}
+
+	.glass .bottom-content a {
+		margin-top: 0;
+		margin-right: 4%;
+	}
+
+	.album .bottom-content {
+		width: 9 0%;
+	}
+
+	.album .bottom-content a {
+		margin-top: 6%;
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	.header-values li a {
+		padding: 0 0.75em;
+	}
+
+	.navbar li a {
+		padding: 0.25rem;
+		font-size: 0.85rem;
+	}
+
+	.search-bar form input {
+		font-size: 0.75rem;
+	}
+
+	.search-bar form button {
+		font-size: 0.75rem;
+	}
+
+	.holiday li {
+		font-size: 0.9em;
+	}
+
+	.bridal-registry a {
+		font-size: 0.9em;
+	}
+
+	.recipe {
+		width: 100%;
+	}
+
+	.menu h2 {
+		font-size: 1.5em;
+	}
+
+	.menu > a {
+		font-size: 0.9em;
+	}
+
+	.glass .bottom-content a {
+		margin-top: 0;
+		margin-right: 2%;
+	}
+
+	.plates .bottom-content {
+		width: 90%;
+	}
+
+	.plates .bottom-content a {
+		margin-top: 2%;
+		margin-right: 2%;
+	}
+
+	.album .bottom-content {
+		border: none;
+		left: 2%;
+		top: 8%;
+		width: 90%;
+	}
+
+	.album .bottom-content h3 {
+		width: 60%;
+	}
+
+	.album .bottom-content a {
+		margin-top: 4%;
+	}
+}
+
+
